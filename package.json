@@ -1,0 +1,24 @@
+{
+  "name": "redux-persist-buildfire-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denza/redux-persist-buildfire-storage.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "buildfire"
+  ],
+  "author": "Denis Besic <besicdenis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denza/redux-persist-buildfire-storage/issues"
+  },
+  "homepage": "https://github.com/denza/redux-persist-buildfire-storage#readme"
+}

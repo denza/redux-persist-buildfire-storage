@@ -8,18 +8,16 @@ export default class BuildFireStorage {
         return new Promise((resolve, reject) => {
             try {
                 var options = {
-                    path:this.storageDirectory
-                    ,fileName: key
+                    path: this.storageDirectory
+                    , fileName: key
                 }
-                
-                function gotContent(error, fileContent){
-                    if(error)
-                        console.error("failed to read file due to ",error);
-                    else
-                        console.log("File Content: ",fileContent);
+
+                function gotContent(error, fileContent) {
+                    if(error)reject(error);
+                    resolve(JSON.parse(fileContent));
                 }
-                
-                buildfire.services.fileManager.readFileAsText(options, gotContent  );
+
+                buildfire.services.fileManager.readFileAsText(options, gotContent);
             } catch (e) {
                 reject(e)
             }
