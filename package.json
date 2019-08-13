@@ -1,7 +1,7 @@
 {
   "name": "redux-persist-buildfire-storage",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "Engine for redux persist using BuildFire storage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,10 @@
     "redux-persist",
     "buildfire"
   ],
-  "author": "Denis Besic <besicdenis@gmail.com>",
+  "contributors": [
+    "Denis Besic <besicdenis@gmail.com>",
+    "Milos Kapovic <miloskapovic@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/denza/redux-persist-buildfire-storage/issues"
