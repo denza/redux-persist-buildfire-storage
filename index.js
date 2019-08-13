@@ -18,7 +18,7 @@ export default class BuildFireStorage {
             resolve(JSON.parse(fileContent));
           }
   
-          window.buildfire.services.fileManager.readFileAsText(options, gotContent);
+          buildfire.services.fileManager.readFileAsText(options, gotContent);
         } catch (e) {
           reject(e);
         }
@@ -39,7 +39,7 @@ export default class BuildFireStorage {
             resolve(JSON.parse(flag));
           }
   
-          window.buildfire.services.fileManager.writeFileAsText(options, fileWritten);
+          buildfire.services.fileManager.writeFileAsText(options, fileWritten);
         } catch (e) {
           reject(e);
         }
