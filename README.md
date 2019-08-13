@@ -2,7 +2,7 @@
 
 redux-persist-buildfire-storage is using [BuildFire](https://github.com/BuildFire/sdk/wiki/File-System-Services) file system componente to persist redux state, and allowing it to be reloaded from the file system even when tha app is closed.
 
-To use it following the code example below:
+To use it, follow the code example below:
 
 ```
 // configureStore.js
